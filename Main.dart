@@ -280,7 +280,6 @@ class _QuizPageState extends State<QuizPage> {
                   ),
                 ),
                 const SizedBox(height: 20),
-                // Adicionando contador de perguntas
                 Text(
                   'Pergunta ${currentIndex + 1} de ${questions.length}',
                   style: const TextStyle(
